@@ -5,6 +5,9 @@ const Home = () => {
   const navigetor = useNavigate();
   const [rom, setRom] = useState('');
   const handleRoom = () => {
+    if (!rom.trim()) {
+      return;
+    }
     navigetor(`/coll-rom/${rom}`);
   };
   return (
