@@ -1,5 +1,5 @@
 import React from 'react';
-import { data, useParams } from 'react-router';
+import { useParams } from 'react-router';
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 
 const Coll = () => {
