@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/coll-rom/:collId',
+        path: '/coll_rom/:collId',
         element: <Coll></Coll>,
       },
     ],
