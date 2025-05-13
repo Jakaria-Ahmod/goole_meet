@@ -12,7 +12,7 @@ const Coll = () => {
       serverSecret,
       collId,
       Date.now().toString(),
-      'Devoloper name jakaria'
+      'md jakaria ahmod'
     );
     const zp = ZegoUIKitPrebuilt.create(kitToken);
     zp.joinRoom({
